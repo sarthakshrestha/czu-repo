@@ -1,40 +1,46 @@
-.navbar-left {
-  margin-bottom: 90px;
-  position: relative;
-  margin-left: 20px;
-  padding: 15px;
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-left{
+    position: relative;
+    padding: 5%;
+    top: 150px;
+    left: 190px;
 }
 
 nav {
-    background-color: rgba(129, 126, 126, 0.265);
+    background-color: #FBEAEB;
     height: 100vh;
 }
 
-
-
 .navbar-left h1 {
-  font-size: 76px;
+  font-size: 142px;
   position: relative;
   margin-bottom: 80px;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  color: #0047ab;
- 
+  font-style: italic;
+  /* color: #0047ab; */
+  color: #2F3C7E;
 }
 
 .navbar-right {
-  margin-left: 85%;
+  margin-left: 10%;
   flex-direction: column;
   position: relative;
-  margin-top: -18%;
-  margin-right: 91%;
-  font-size: 14px;
+  margin-top: -34%;
+  margin-right: 94%;
+ 
 }
 
 .navbar-right h2 {
-  font-size: 38px;
+  font-size: 32px;
+  line-height: 14px;
   padding: 18px;
   color: #0047ab;
   text-align: center;
