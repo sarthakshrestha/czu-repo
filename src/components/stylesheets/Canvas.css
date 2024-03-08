@@ -1,0 +1,120 @@
+.image-header h1{
+    margin-left: 10%;
+    font-family: Merriweather, serif;
+    font-size: 102px;
+    position: relative;
+    top: 40px;
+    color: #0047AB;
+}
+
+.image-header {
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    bottom: 80px;
+    position: relative;
+}
+
+.print-header {
+    background-image: url('../images/image-2.JPG');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    bottom: 80px;
+    position: relative;
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.print-header h1{
+    margin-left: 10%;
+    font-family: Merriweather, serif;
+    font-size: 102px;
+    position: relative;
+    top: 40px;
+    color: #0047AB;
+
+}
+
+.image-boxes p{
+    font-family: "Lora", serif;
+    font-size: 20px;
+    color: #0047AB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.portfolio-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh; 
+  }
+
+  .print-image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px;
+    padding: 60px;
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+      z-index: 10;
+  }
+  
+  .print-image img {
+    width: 100%;
+    height: 320px;
+    max-height: 100%; 
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+  
+  .image-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    flex: 1 0 30%;
+    max-width: 30%; 
+  }
+
+  .image-boxes img{
+    height: 280px;
+    width: auto;
+   
+  }
+  
+  .main-photo {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin-bottom: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .main-photo:hover {
+    transform: scale(1.1); 
+  }
+
+    .navbar-right a{
+        text-decoration: none;
+        
+    }
+
+  .navbar-right a[href="/images"]:visited {
+    text-decoration: none;
+    color: #0047AB;
+  }
+
+  
+
+
+  

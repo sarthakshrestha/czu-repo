@@ -1,0 +1,38 @@
+.navbar-left{
+    margin-bottom: 90px;
+    position: relative;
+    margin-left: 20px;
+    padding: 15px;
+
+}
+
+nav{
+    background-color: rgba(129, 126, 126, 0.265);
+    height: 800px;
+}
+
+.navbar-left h1{
+    font-size: 76px;
+    position: relative;
+    margin-bottom: 80px;
+    font-family: Merriweather, serif;  
+    color: #0047AB;
+}
+
+.navbar-right{
+    margin-left: 85%;
+    flex-direction: column;
+    position: relative;
+    margin-top: -18%;
+    margin-right: 91%;
+    font-size: 14px;
+}
+
+.navbar-right h2 {
+    font-size: 38px;
+    padding: 18px;
+    color: #0047AB;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
